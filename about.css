@@ -27,10 +27,17 @@ body{
 }*/
 
 /*Global*/
+/*.container:not(#one)*/
 .container{
     width: 90%;
     margin: auto;
     overflow: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
 }
 
 ul{
