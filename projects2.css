@@ -288,14 +288,11 @@ Projects
 
 #projects{
     text-align: center;
-    padding: auto;
     margin-bottom: none;
     background-color: rgb(63, 144, 63);
     color: white;
     padding-top: 100px;  
-    padding-bottom: 50px;
-/*    display: grid;
-    grid-template-columns: repeat(4, 1fr);*/
+    padding-bottom: 50px; 
 }
 
 #project_Title{
@@ -304,8 +301,8 @@ Projects
 }
 
 #projects .box{
-    width: 200px;
-    height: 400px;
+    width: 1000px;
+    height: 300px;
     float: left;
     text-align: center;
     padding: 50px;
@@ -313,6 +310,7 @@ Projects
     border: 10px solid rgb(0, 0, 0);
     margin: 25px;
     transition:1s;
+    display: block;
 }
 
 #projects .box:hover{
